@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chrxzrbx.lol</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">chrxzrbx.lol <img src="verification.svg" alt="icon" class="verified-icon-vertical-features-cards"></div>
+      <nav class="nav-links">
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-card">
+      <h1 class="site-title">welcome to chrxzrbx.lol</h1>
+      <p class="site-subtitle">unofficial korone help 😭</p>
+      <a href="#about" class="hero-btn">explore</a>
+    </div>
+  </section>
+
+  
+
+  <!-- Features -->
+  <section class="features" id="about">
+    <div class="feature-card">
+      <h3>about</h3>
+      <p>this is just an unofficial page about korone help!</p>
+    </div>
+    <div class="feature-card">
+      <h3>by:</h3>
+      <p>voidx64 on discord, tomholland on korone!</p>
+    </div>
+  </section>
+
+  <div class="feature-card">
+    <h3>Base URL</h3>
+    <div class="code-block">
+        <code>https://www.pekora.zip</code>
+        <button class="copy-btn" onclick="copyText()">📋</button>
+    </div>
+    </div>
+
+    <script>
+        function copyText() {
+            const text = "https://www.pekora.zip";
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied to clipboard.");
+            });
+        }
+    </script>
+
+
+<hr>
+
+<!-- Vertical Cards List -->
+<section class="card-list-vertical">
+  <div class="feature-card">
+    <h3>
+        How to sign up
+    </h3>
+    <p>To sign up, you need to head your way over to <a href="https://www.pekora.zip/auth/application">pekora.zip/auth/application</a>.<br><br>Once you have went there, you need to fill out an <b>application</b>. You will also need Discord to create one.<br><br>You can choose a <b>referral code</b>, which the next section will be talking about! Once you have filled in your form, you now need to wait for it to be approved.</p>
+</div>
+  <div class="feature-card">
+    <h3>
+        Referral Codes
+    </h3>
+    <p>Referral codes are <b>user-made</b> codes that users can put in to their application.<br><br>When used, the user that <b>used</b> the referral code AND the person that <b>made</b> the referral code will each get 50 robux. <br><br>You can make a referral code at <a href="https://www.pekora.zip/internal/referral">pekora.zip/internal/referral</a>.</p>
+</div>
+</div>
+  <div class="feature-card">
+    <h3>
+        Robux
+    </h3>
+    <p>Robux is the <b>in-game currency</b> in Korone. You can buy items such as <i>Gamepasses, Developer Products, Shirts, and a lot more</i> with robux.</p>
+</div>
+  <div class="feature-card">
+    <h3>
+        Tix
+    </h3>
+    <p>Tix is a <b>in-game currency</b> in Korone. You can buy items such as <i>Shirts, T-Shirts, Pants</i> with Tix.<br><br><b>Tix is rarely used.</b></p>
+</div>
+  <div class="feature-card">
+    <h3>
+        Converting Robux and Tix
+    </h3>
+    <p>Did you know, you can convert robux to tix and the other way round too!🔄️<br><br>Just to let you know, <b>10 tix</b> = <b>1 robux</b><br><br>To exchange <b>Tix to Robux</b>, head to <a href="https://www.pekora.zip/internal/tixexchange">pekora.zip/internal/tixexchange</a><br><br>To exchange <b>Robux to Tix</b>, head to <a href="https://www.pekora.zip/internal/robuxexchange">pekora.zip/internal/robuxexchange</a></p>
+</div>
+</div>
+  <div class="feature-card">
+    <h3>
+        Builders Club
+    </h3>
+    <p>Builders Club is a Korone <b>Membership</b> that you can get for free. Here's some info about it:<br><br><b>BC</b> = 15 Robux every day.<br><br><b>TBC</b> = 35 Robux every day.<br><br><b>OBC</b> = 85 Robux every day.<br><br><b>Premium</b> = 85 Robux every day.<br><br>Head to <a href="https://www.pekora.zip/internal/membership">pekora.zip/internal/membership</a> to get a membership!</p>
+</div>
+</section>
+
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
