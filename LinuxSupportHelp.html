@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chrxzrbx.lol</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">chrxzrbx.lol <img src="verification.svg" alt="icon" class="verified-icon-vertical-features-cards"></div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="BasicHelp.html" class="nav-link">Basic</a>
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-card">
+      <h1 class="site-title">Linux Help</h1>
+      <p class="site-subtitle">The Linux Section</p>
+      <a href="index.html" class="hero-btn">Back</a>
+    </div>
+  </section>
+
+
+<hr>
+
+<!-- Vertical Cards List -->
+<section class="card-list-vertical" id="BasicHelp">
+  <div class="feature-card">
+    <h3>
+        Downloading Korone on Linux
+    </h3>
+    <p>There is <b>no official way</b> to download Korone on Linux. <br><br>There is a trusted unofficial <b>bootstrapper</b> that you can download at <a href="https://github.com/reprovision/koroneStrap">github.com/reprovision/koroneStrap</a></p>
+</div>
+</section>
+
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
