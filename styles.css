@@ -16,7 +16,6 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-primary); }
-
 .header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -26,6 +25,12 @@ body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: v
   display: flex;
   align-items: center;
   z-index: 1000;
+}
+.sstitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
 }
 .header-container {
   max-width: 1200px;
